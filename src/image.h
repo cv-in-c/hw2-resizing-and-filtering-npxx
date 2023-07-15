@@ -3,8 +3,9 @@
 
 // DO NOT CHANGE THIS FILE
 
-typedef struct{
-    int w,h,c;
+typedef struct
+{
+    int w, h, c;
     float *data;
 } image;
 
@@ -46,10 +47,11 @@ image make_emboss_filter();
 image make_gaussian_filter(float sigma);
 image make_gx_filter();
 image make_gy_filter();
+image make_cannyedge_filter(); // new filter added
+
 void feature_normalize(image im);
 void threshold_image(image im, float thresh);
 image *sobel_image(image im);
 image colorize_sobel(image im);
 
 #endif
-

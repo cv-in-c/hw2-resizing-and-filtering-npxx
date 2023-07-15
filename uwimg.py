@@ -120,6 +120,11 @@ make_highpass_filter = lib.make_highpass_filter
 make_highpass_filter.argtypes = []
 make_highpass_filter.restype = IMAGE
 
+make_cannyedge_filter = lib.make_cannyedge_filter
+make_cannyedge_filter.argtypes = []
+make_cannyedge_filter.restype = IMAGE
+
+
 make_gy_filter = lib.make_gy_filter
 make_gy_filter.argtypes = []
 make_gy_filter.restype = IMAGE

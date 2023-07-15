@@ -19,3 +19,41 @@
 
 `dog7th-bl.jpg` <br>
 ![image](dog7th-bl.jpg)
+
+<hr>
+
+### Task 2.1 + 2.2 | Box Filter + Convolution
+
+`dog-box7.jpg` <br>
+![image](dog-box7.jpg)
+
+`dogthumb.jpg` <br>
+![image](dogthumb.jpg)
+
+<hr>
+
+### Task 2.25 | Cannyedge (EXT) + HighPass, Sharpen & Emboss filters
+
+`bldg-highpass.jpg` <br>
+![image](bldg-highpass.jpg)
+
+`bldg-sharpen.jpg` <br>
+![image](bldg-sharpen.jpg)
+
+`bldg-emboss.jpg` <br>
+![image](bldg-emboss.jpg)
+
+`bldg-canny.jpg` <br>
+![image](bldg-canny.jpg)
+
+<hr>
+
+### Task 2.3 | Gaussian Kernel
+
+`dog-gauss2.jpg`
+![image](dog-gauss2.jpg)
+
+`dog-gauss2-big.jpg`
+![image](dog-gauss2-big.jpg)
+
+<hr>

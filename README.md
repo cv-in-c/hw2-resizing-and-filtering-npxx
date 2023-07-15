@@ -34,6 +34,8 @@
 
 ### Task 2.25 | Cannyedge (EXT) + HighPass, Sharpen & Emboss filters
 
+(Custom test image)
+
 `bldg-highpass.jpg` <br>
 ![image](bldg-highpass.jpg)
 
@@ -50,10 +52,23 @@
 
 ### Task 2.3 | Gaussian Kernel
 
-`dog-gauss2.jpg`
+`dog-gauss2.jpg` <br>
 ![image](dog-gauss2.jpg)
 
-`dog-gauss2-big.jpg`
+`dog-gauss2-big.jpg` <br>
 ![image](dog-gauss2-big.jpg)
+
+<hr>
+
+### Task 3 | Hybrid Images
+
+Low freq `low-frequency.jpg` <br>
+![image](low-frequency.jpg)
+
+High freq `high-frequency.jpg` <br>
+![image](high-frequency.jpg)
+
+Reconstruction `reconstruct.jpg` <br>
+![image](reconstruct.jpg)
 
 <hr>

@@ -178,10 +178,10 @@ image make_emboss_filter()
 }
 
 // Question 2.2.1: Which of these filters should we use preserve when we run our convolution and which ones should we not? Why?
-// Answer: TODO
+// Answer: Sharpen & Emboss (since we want all the three channels)
 
 // Question 2.2.2: Do we have to do any post-processing for the above filters? Which ones and why?
-// Answer: TODO
+// Answer: Clamping for the prevention of overflowing images
 
 image make_gaussian_filter(float sigma)
 {

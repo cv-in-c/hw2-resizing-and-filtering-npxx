@@ -62,3 +62,20 @@ reconstruct = lfreq + hfreq
 save_image(lfreq, "low-frequency")
 save_image(hfreq, "high-frequency")
 save_image(reconstruct, "reconstruct") 
+
+# 9.1 Extraww
+dawg = load_image("dawg.jpg")
+gurl = load_image("gurl.jpg")
+dawg_gauss = convolve_image(dawg, gaussf, 10)
+gurl_gauss = convolve_image(gurl, gaussf, 2)
+dawg_hfreq = dawg - dawg_gauss
+gurl_hfreq = gurl - gurl_gauss
+dawg_reconstruct = dawg_gauss + gurl_hfreq
+gurl_reconstruct = gurl_gauss + dawg_hfreq
+
+save_image(dawg_gauss, "dawg-gauss")
+save_image(gurl_gauss, "gurl-gauss")
+save_image(dawg_hfreq, "dawg-hfreq")
+save_image(gurl_hfreq, "gurl-hfreq")
+save_image(dawg_reconstruct, "dawg-reconstruct")
+save_image(gurl_reconstruct, "gurl-reconstruct")

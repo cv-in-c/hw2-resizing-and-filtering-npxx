@@ -71,4 +71,11 @@ High freq `high-frequency.jpg` <br>
 Reconstruction `reconstruct.jpg` <br>
 ![image](reconstruct.jpg)
 
+Extra tries
+
+| gauss                    | hfreq                    | reconstruct                    |
+| ------------------------ | ------------------------ | ------------------------------ |
+| ![image](gurl-gauss.jpg) | ![image](gurl-hfreq.jpg) | ![image](gurl-reconstruct.jpg) |
+| ![image](dawg-gauss.jpg) | ![image](dawg-hfreq.jpg) | ![image](dawg-reconstruct.jpg) |
+
 <hr>

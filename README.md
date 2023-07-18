@@ -79,3 +79,19 @@ Extra tries
 | ![image](dawg-gauss.jpg) | ![image](dawg-hfreq.jpg) | ![image](dawg-reconstruct.jpg) |
 
 <hr>
+
+### Task 4 | Sobel Filter
+
+`magnitude.jpg` <br>
+![image](magnitude.jpg)
+
+`colsob.jpg` <br>
+![image](colsob.jpg)
+
+<hr>
+
+### Tests
+
+Tests passed
+
+![image](tests.png)

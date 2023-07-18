@@ -79,3 +79,13 @@ save_image(dawg_hfreq, "dawg-hfreq")
 save_image(gurl_hfreq, "gurl-hfreq")
 save_image(dawg_reconstruct, "dawg-reconstruct")
 save_image(gurl_reconstruct, "gurl-reconstruct")
+
+# 10. Sobel
+res = sobel_image(im3)
+mag = res[0]
+feature_normalize(mag)
+save_image(mag, "magnitude")
+
+sob2 = colorize_sobel(im3)
+feature_normalize(sob2)
+save_image(sob2, "colsob")
